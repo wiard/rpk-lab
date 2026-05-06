@@ -24,3 +24,19 @@ See `concept/plan_register_provenance_kernel_v2.md` for the full plan.
 **Status:** Fase 0 — concept and literature review.
 
 *De chip getuigt; AI redeneert.*
+
+## Repository relationship
+
+This is the canonical repository for reviewed Register Provenance Kernel work.
+
+The exploration repository is:
+
+https://github.com/wiard/register-provenance-kernel
+
+Nothing is adopted here without a seq-numbered ledger entry in:
+
+ledgers/research-provenance.jsonl
+
+Modules, design decisions and experiments from the exploration repository
+enter this repository only through explicit adoption events such as
+ModuleAdopted, DesignDecisionAdopted or ExperimentAdopted.
